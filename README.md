@@ -20,10 +20,15 @@ Projekt 2 - wtyczka do QGISa
 - Aby poprawnie używać naszego programu, potrzebujemy poprawnie przetworzonych plików typu txt,
 
 - Muszą ona zostać przygotowane tak jak w poniższym przykładzie (jest to spowodowane faktem, iż nasz program liczy wymagane polecenia na podstawie tabeli atrybutów w programie QGIS):
+
 nr;y92;x92;h
+
 1;672600;352600;198.34
+
 2;672700;352600;197.49
+
 3;672800;352600;199.61
+
 
 - Tłumacząc podany przykład opracowany plik na którym chcemy wykorzystać naszą wtyczkę, plik ten musi zawierać kolejno w kolumnach:
 nr -> numery punktów
