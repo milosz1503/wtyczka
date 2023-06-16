@@ -49,3 +49,6 @@ h w tabeli ma przyjąć typ "decimal" (double)
 - W oknie wynikowym w momencie wykonania poprawnych obliczeń powinny pokazać się:
 w przypadku obliczenia wysokości -> wybrane punkty oraz wysokość podana w metrach
 w przypadku obliczenia powierzchni -> wybrane punkty oraz pole powierzchni podane w metrach kwadratowych
+
+**Zmiany/Aktualizacje**
+W kodzie programu "wtyczka_qgis_dialog.py" zostało zmienione definiowanie współrzędnych punktów. Teraz współrzędne nie są pobierane z tabeli atrybutów, są one definiowane na podstawie geometrii obiektów, bądź punktów.
