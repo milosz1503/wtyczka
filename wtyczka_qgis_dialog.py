@@ -60,10 +60,13 @@ class WtyczkaQGISDialog(QtWidgets.QDialog, FORM_CLASS):
         h = []
         nr = []
         for punkt in aktywna.selectedFeatures():
-            x.append(punkt['x92'])
-            y.append(punkt['y92'])
+         
+            wsp_x = punkt.geometry().asPoint().x
+            wsp_y = punkt.geometry().asPoint().y
+            x.append(wsp_x)
+            y.append(wsp_y)
             h.append(punkt['h']) 
-            nr.append(punkt['nr'])   
+            nr.append(punkt['nr'])     
                 
         if ilosc == 0 or ilosc == 1:
             msg = QMessageBox()
